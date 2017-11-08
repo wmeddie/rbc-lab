@@ -128,8 +128,6 @@ public class RedBloodCellDetection {
 
         // 5
 
-        System.out.println(pretrained.summary());
-
         INDArray priors = Nd4j.create(priorBoxes);
 
         FineTuneConfiguration fineTuneConf = new FineTuneConfiguration.Builder()
